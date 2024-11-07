@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Calabonga SOFT",
+    "classifications": [
+        "Common",
+        "Web",
+        "Blazor"
+    ],
+    "name": "Blazor Modules with AppDefinitions",
+    "description": "Blazor Server application with simple modularity base on Application Definitions.",
+    "identity": "Calabonga.Blazor.Shell",
+    "shortName": "blazor-appdef",
+    "tags": {
+        "language": "C#",
+        "type": "solution"
+    },
+    "defaultName": "Calabonga.Blazor.Shell1",
+    "sourceName": "Calabonga.Blazor.Shell",
+    "preferNameDirectory": true,
+    "symbols": {
+        "Framework": {
+            "type": "parameter",
+            "description": "The target framework for the project.",
+            "datatype": "choice",
+            "choices": [
+                {
+                    "choice": "net8.0"
+                }
+            ],
+            "defaultValue": "net8.0"
+        }
+    },
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        ".vs/**",
+                        ".idea/**",
+                        "_ReSharper.Caches/**",
+                        ".template_config/**"
+                    ]
+                }
+            ]
+        }
+    ]
+}
