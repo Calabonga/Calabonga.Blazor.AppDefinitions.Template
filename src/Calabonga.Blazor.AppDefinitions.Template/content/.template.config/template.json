@@ -7,7 +7,7 @@
         "Blazor"
     ],
     "name": "Blazor Modules with AppDefinitions",
-    "description": "Blazor Server application with simple modularity base on Application Definitions.",
+    "description": "Blazor application with simple modularity based on Application Definitions.",
     "identity": "Calabonga.Blazor.Shell",
     "shortName": "blazor-appdef",
     "tags": {

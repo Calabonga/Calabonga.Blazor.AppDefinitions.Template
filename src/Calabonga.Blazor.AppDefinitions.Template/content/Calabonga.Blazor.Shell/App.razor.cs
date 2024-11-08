@@ -6,12 +6,5 @@ namespace Calabonga.Blazor.Shell;
 
 public partial class App : ComponentBase
 {
-    public IEnumerable<Assembly> Modules => BlazorModules.Instance.Modules;
-
-    //public IEnumerable<Assembly> Modules => [
-    //    typeof(ModuleCounter.Counter).Assembly,
-    //    typeof(ModuleIndex.Index).Assembly,
-    //    typeof(ModuleWeatherForecast.FetchData).Assembly
-    //];
-
+    private IEnumerable<Assembly> Modules => ModuleDefinitions.Instance.Assemblies;
 }
