@@ -14,7 +14,3 @@ public class ModuleWeatherForecastDefinition : AppDefinition
         builder.Services.AddScoped<WeatherForecastService>();
     }
 }
-
-public class WeatherForecastBlazorModule : IBlazorModule
-{
-}

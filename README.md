@@ -54,6 +54,11 @@ This is a demo Application Modular Blazor application. All pages moved to the it
 
 ## История версий
 
-### Версия 1.0.0
+### Версия 1.0.0 2024-11-08
 
-* Первый релиз сборки.
+* Улучшена сборка метаданных с модулей (Metadata from blazor modules improved).
+* Меню теперь генерируется на основе списка модулей, то есть динамически (Menu dynamic generation implemented).
+
+### Версия 1.0.0 2024-11-07
+
+* Первый релиз сборки (first release).

@@ -13,7 +13,3 @@ public class ModuleCounterDefinition : AppDefinition
         builder.Services.AddScoped<IBlazorModule, CounterBlazorModule>();
     }
 }
-
-public class CounterBlazorModule : IBlazorModule
-{
-}

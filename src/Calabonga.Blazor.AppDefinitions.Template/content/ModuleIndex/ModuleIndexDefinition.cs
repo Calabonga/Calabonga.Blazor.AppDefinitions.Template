@@ -13,7 +13,3 @@ public class ModuleIndexDefinition : AppDefinition
         builder.Services.AddScoped<IBlazorModule, IndexBlazorModule>();
     }
 }
-
-public class IndexBlazorModule : IBlazorModule
-{
-}
