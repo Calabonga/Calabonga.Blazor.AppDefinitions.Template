@@ -1,20 +1,19 @@
 using Calabonga.Blazor.AppDefinitions;
 
-namespace Calabonga.Blazor.Shell
+namespace Calabonga.Blazor.Shell;
+
+public class Program
 {
-    public class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
+        var builder = WebApplication.CreateBuilder(args);
 
-            builder.AddBlazorModulesDefinitions("Modules", typeof(App));
+        builder.AddBlazorModulesDefinitions("Modules", typeof(App));
 
-            var app = builder.Build();
+        var app = builder.Build();
 
-            app.UseDefinitions();
+        app.UseDefinitions();
 
-            app.Run();
-        }
+        app.Run();
     }
 }
