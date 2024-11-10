@@ -3,13 +3,16 @@ using Microsoft.AspNetCore.Components.Routing;
 
 namespace ModuleIndex;
 
-public class IndexBlazorModule : IBlazorModule
+/// <summary>
+/// IndexModule with route
+/// </summary>
+public class IndexBlazorModule : BlazorModule
 {
-    public string Title => "Home";
+    public override string Title => "Home";
 
-    public string Description => "Brief component description";
+    public override string Description => "Brief component description";
 
-    public string Route => "/";
+    public override string Route => "/";
 
-    public NavLinkMatch Match => NavLinkMatch.All;
+    public override NavLinkMatch Match => NavLinkMatch.All;
 }
