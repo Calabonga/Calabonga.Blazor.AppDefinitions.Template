@@ -11,7 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Calabonga.Blazor.AppDefinitions" Version="1.1.0" />
+		<PackageReference Include="Calabonga.Blazor.AppDefinitions" Version="1.2.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.10" />
 	</ItemGroup>
 

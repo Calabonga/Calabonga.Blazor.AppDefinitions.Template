@@ -1,15 +1,15 @@
 ﻿using Calabonga.Blazor.AppDefinitions;
-using Microsoft.AspNetCore.Components.Routing;
 
 namespace ModuleCounter;
 
-public class CounterBlazorModule : IBlazorModule
+/// <summary>
+/// Counter module with route
+/// </summary>
+public class CounterBlazorModule : BlazorModule
 {
-    public string Title => "Counter";
+    public override string Title => "Counter";
 
-    public string Description => "Brief component description";
+    public override string Description => "Brief component description";
 
-    public string Route => "/counter";
-
-    public NavLinkMatch Match => NavLinkMatch.Prefix;
+    public override string Route => "/counter";
 }
