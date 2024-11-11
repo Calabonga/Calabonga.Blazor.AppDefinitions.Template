@@ -12,4 +12,6 @@ public class CounterBlazorModule : BlazorModule
     public override string Description => "Brief component description";
 
     public override string Route => "/counter";
+
+    public override int OrderIndex => 1;
 }

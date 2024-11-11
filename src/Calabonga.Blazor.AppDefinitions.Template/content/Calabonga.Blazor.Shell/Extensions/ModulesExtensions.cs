@@ -12,7 +12,11 @@ public static class ModulesExtensions
     /// <returns>collection of the <see cref="NavLink"/></returns>
     public static IEnumerable<AssemblyNavLink> AsNavLinks(this IEnumerable<BlazorAppDefinition> source)
     {
-        return source.SelectMany(x => x.Modules).Select(x => new AssemblyNavLink(x.Route, x.Title, x.Match)).ToList();
+        return source
+            .SelectMany(x => x.Modules)
+            .OrderBy(x => x.OrderIndex)
+            .Select(x => new AssemblyNavLink(x.Route, x.Title, x.Match))
+            .ToList();
     }
 }
 
