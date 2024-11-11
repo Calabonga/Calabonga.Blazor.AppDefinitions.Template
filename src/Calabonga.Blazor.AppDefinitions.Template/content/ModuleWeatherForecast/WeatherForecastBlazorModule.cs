@@ -12,4 +12,6 @@ public class WeatherForecastBlazorModule : BlazorModule
     public override string Description => "Brief component description";
 
     public override string Route => "/fetchdata";
+
+    public override int OrderIndex => 2;
 }

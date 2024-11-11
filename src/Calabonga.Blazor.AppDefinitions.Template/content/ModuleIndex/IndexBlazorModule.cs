@@ -15,4 +15,6 @@ public class IndexBlazorModule : BlazorModule
     public override string Route => "/";
 
     public override NavLinkMatch Match => NavLinkMatch.All;
+
+    public override int OrderIndex => 0;
 }
