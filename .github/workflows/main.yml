@@ -1,4 +1,4 @@
-name: Calabonga.Blazor.AppDefinitions.Template
+name: Nuget (NET10)
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: 8.0.x
+          dotnet-version: 10.0.x
 
       - name: Install dependencies
         run: dotnet restore src/Calabonga.Blazor.AppDefinitions.Template.sln
