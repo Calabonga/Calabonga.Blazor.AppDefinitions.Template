@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Calabonga.Blazor.CounterModule/Calabonga.Blazor.CounterModule.csproj" Id="a09c2f94-116b-4067-93f3-1897cb507b7b" />
+  <Project Path="Calabonga.Blazor.Shell/Calabonga.Blazor.Shell.csproj" />
+  <Project Path="Calabonga.Blazor.WeatherModule/Calabonga.Blazor.WeatherModule.csproj" Id="b756d38b-756c-405c-92f8-e73c78c520c0" />
+</Solution>
