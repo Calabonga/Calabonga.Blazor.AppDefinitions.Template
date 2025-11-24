@@ -4,7 +4,7 @@
     <!-- The package metadata. Fill in the properties marked as TODO below -->
     <!-- Follow the instructions on https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices -->
     <PackageId>Calabonga.Blazor.AppDefinitions.Template</PackageId>
-    <PackageVersion>3.0.0-beta.1</PackageVersion>
+    <PackageVersion>3.0.0</PackageVersion>
     <Title>Blazor Server Application with Modules</Title>
     <Authors>Calabonga</Authors>
     <Copyright>Calabonga SOFT © 2001-$([System.DateTime]::Now.ToString(yyyy))</Copyright>
