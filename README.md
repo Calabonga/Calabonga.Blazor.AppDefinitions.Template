@@ -60,6 +60,10 @@ This is a demo Application Modular Blazor application. All pages moved to the it
 
 ## История версий
 
+### Версия 3.0.1 2025-12-25
+
+`AddDepefinitions` renamed to `AddBlazorDefinitions`
+
 ### Версия 3.0.0 2025-11-24
 
 * Миграция на NET10.
